@@ -26,4 +26,7 @@ obj/
 .history
 .ionide
 
+# Ignore these too
+friends.json
+
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore,visualstudiocode
