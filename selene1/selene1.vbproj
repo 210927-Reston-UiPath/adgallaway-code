@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>phoneBookApp</RootNamespace>
+    <RootNamespace>selene1</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
