@@ -6,7 +6,7 @@ Class MainMenu
     dim filename as string = "friends.json"
     dim jsonstring as string = ""
     sub Initialize() Implements Imenu.Start
-     Console.WriteLine("Hello World!")
+     'Console.WriteLine("Hello World!")
         dim repeat as Boolean = true
         Do While repeat
             Console.WriteLine("What would you like to do?")
@@ -31,7 +31,9 @@ Class MainMenu
         dim name as string = Console.ReadLine()
         Console.WriteLine("Number: ")
         dim number as string = Console.ReadLine()
-        dim newFriend as Contact = new Contact(name, int32.Parse(number))
+        Console.WriteLine("Email: ")
+        dim emailAddress as string = Console.ReadLine()
+        dim newFriend as Contact = new Contact(name, int32.Parse(number), emailAddress)
         AddFriend2File(newFriend)
         Console.WriteLine("New Friend Created: " + newFriend.ToString())
     End Sub
