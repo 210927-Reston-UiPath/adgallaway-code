@@ -1,0 +1,13 @@
+Here is how to use the VI command line text editor.
+written in VI.
+Fri Oct  1 16:34:04 EDT 2021
+
+after editing the text, press <ESC>
+:q => quit - no change
+:q! => quit without saving
+:wq => save and quit
+:w filename => save as a new filename
+:r!date => inserts the current date under the current line
+:s/the/THE/g => searches for 'the' & replaces with 'THE' from the current line
+:|,$ s/the/THE/g => same as above but from line 1
+
