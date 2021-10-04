@@ -3,7 +3,6 @@ These are from old notes. Some commands may no longer be available.
 for more information, in bash, type [command] --help 
 Remember, Linux commands are case sensitive
 
-
 ls			=> lists files and directories in current directory
 ls -a		=> lists all files and directories including hidden files/directories
 ls -l		=> lists all files and directories showing all info, including permissions
