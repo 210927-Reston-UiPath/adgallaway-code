@@ -8,7 +8,7 @@ order by count(id) desc;
 select * from batch;
 
 select * from associates full join batch
-on associates.id = batch.associatesID;
+on associates.id = batch.associateID;
 select trainerName, count(associateID) from trainers
 full join batch on batch.trainerID = trainers.id
 group by trainerName
