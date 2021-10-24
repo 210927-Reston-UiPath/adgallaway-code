@@ -6,3 +6,7 @@
     5px 5px 6px -5px rgba(0, 0, 0, 0.02);
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 6px -5px rgba(0, 0, 0, 0.02);
 } */
+
+#total {
+  text-align: right;
+}
